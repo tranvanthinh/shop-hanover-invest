@@ -1,0 +1,72 @@
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.nav-link {
+    color: #212529;
+}
+
+.row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-item {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.admin-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-toolbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+.invalid-feedback {
+    display: block !important;
+}
+
+input[name='price'] {
+    max-width: 200px;
+    text-align: right;
+}
+
+label.required:after {
+    content:"*";
+    color:red;
+}
+
+table thead tr {
+    background: rgba(13, 110, 253, 0.08);
+}
+
+.form-delete {
+    display: inline;
+}
+
+td.action {
+    width: 250px;
+    text-align: center;
+}
+
+small.product-name {
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+small.product-name a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+#sidebarMenu a.active {
+    color: #0d6efd !important;
+    font-weight: bold;
+}
